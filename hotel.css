@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    /*  oy word nv center  */
+}
+
+
+/*color button */
+
+a {
+    text-decoration: none;
+    /* delete line*/
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+.container {
+    /*   margin: 0 70px;   */
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+#navbar {
+    background: rgb(65, 64, 64);
+    color: white;
+    overflow: auto;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    /*    class current is = for color on the button Home or About or Contact      */
+    background: chocolate;
+    color: rgb(14, 7, 7);
+    ;
+}
+
+
+/*  case  */
+
+#case {
+    background: url(file:///Users/mac/Desktop/picture/hotel-bed.jpg) no-repeat center center/cover;
+    /*  no-repeat = show 1 picture  /  center = kandal   /  center/cover= full weidth  */
+    height: 600px;
+}
+
+#case .case-content {
+    color: white;
+    padding-top: 170px;
+    text-align: center;
+}
+
+#case .case-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+#case .case-content p {
+    padding-bottom: 20px;
+    line-height: 1.2em;
+}
+
+.text {
+    color: chocolate;
+}
+
+.read {
+    font-size: 20px;
+}
+
+.Btn {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background: rgb(90, 90, 90);
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    background: chocolate;
+    color: black;
+}
+
+
+/* History */
+
+#home {
+    height: 400px;
+    background: rgb(70, 69, 69);
+}
+
+#home .imgbox {
+    float: right;
+    width: 50%;
+    background: url(file:///Users/mac/Desktop/picture/hotel2.jpg) no-repeat;
+    min-height: 100%;
+}
+
+#home .content {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    padding: 50px 30px;
+    color: white;
+}
+
+.Btn-His {
+    margin-top: 30px;
+}
+
+
+/* feature */
+
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+
+/* footer */
+
+#mainFoot {
+    text-align: center;
+}
+
+#mainFoot .foot {
+    color: chocolate;
+    background: black;
+    border-radius: 20px;
+    padding: 12px 12px;
+    /*   down and up      */
+}
+
+
+/* About.html  */
+
+
+/*********************************************************************************************************/
+
+#aboutInfo .infoLeft {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#aboutInfo .infoRigth {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#aboutInfo .infoRigth img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    /*  border-radius is = oval or cicle  */
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* create padding for about */
+
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+.color-text {
+    color: white;
+    background: chocolate;
+}
+
+
+/* test1 */
+
+.lHeading {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#test1 {
+    background: url(file:///Users/mac/Desktop/picture/hotel-bed.jpg) no-repeat center center/cover;
+    padding-top: 30px;
+    margin: 10px;
+}
+
+#test1 .test2 {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    opacity: 0.6;
+    /*   ធ្វើអោយវា ថ្លា */
+}
+
+.test2 img {
+    height: 90px;
+}
+
+#test1 .test2 img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+/********************************************************************************************************/
+
+
+/*    contant.html    */
+
+#contact-form .frmGroup {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    /*   oy dach pi kne   */
+    margin-bottom: 1px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+
+/*************************************************************************************************************/
+
+#contact-form .frmGroup {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    /*   oy dach pi kne   */
+    margin-bottom: 1px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}

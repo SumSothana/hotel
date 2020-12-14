@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>THANA-HOTEL</title>
+    <link rel="stylesheet" href="file:///Users/mac/Desktop/Web/fontawesome-free-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="hotel.css">
+
+</head>
+
+<body>
+    <header>
+
+        <!--  use "nav" for input link web that you click button link has 'html,css,js,.......' -->
+        <nav id="navbar">
+            <div class="container"></div>
+            <h1 class="logo"><a href="Home.html">TROBY-THANA</a></h1>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html" class="current">contact</a></li>
+                <!--  class current is = for color on the button current    -->
+            </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1><span class="text">Contact</span> Program</h1>
+            <p>Please fill out the form below to contact us of program </p>
+            <!--     create form    -->
+
+
+            <form action="process.php">
+                <div class="frmGroup">
+                    <label for="name">Name</label>
+                    <input type="Text" name="name" id="name">
+                </div>
+
+                <div class="frmGroup">
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="email">
+                </div>
+
+                <div class="frmGroup">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="Btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact-info">
+        <div class="container">
+            <Div class="box">
+                <i class="fas fa-map-marked-alt fa-3x"></i>
+                <h3>Location</h3>
+                <p> # 55B , st 50D8 , Sombor mes , S.k Doung kur , K Doung kur , Phnom Penh , Cambodia </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Phone </h3>
+                <p> +855 98 96 50 63 </p>
+
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email</h3>
+                <p> Sumsothana@gmail.com</p>
+            </div>
+        </Div>
+    </section>
+    <footer id="mainFoot">
+        <div class="container">
+            <p class="foot">Sumsothana &copy;2020, all right</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
